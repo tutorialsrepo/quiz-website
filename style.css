@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 0px 20px;
+  border: none;
+  border-radius: 50px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: green;
+  color: white;
+}
+
+header a {
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.homeSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.homeLeftSection > * {
+  margin: 20px;
+}
+
+.homeLeftSection {
+  width: 40%;
+  margin-top: 40px;
+}
+
+.homeLeftSection h1 {
+  font-size: 35px;
+}
+
+.homeLeftSection p {
+  font-size: 20px;
+}
+
+.homeLeftSection button {
+  font-size: 18px;
+  background-color: green;
+  color: white;
+}
+
+/* howWorkSection */
+
+.howWorkSection {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.howWorkCard > * {
+  padding: 10px;
+}
+
+.howWorkCard {
+  padding: 20px;
+  margin: 30px;
+  width: 25%;
+  border: 3px solid green;
+  border-radius: 20px;
+}
+
+.workCards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* sectionTitle */
+
+.sectionTitle {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.card > * {
+  padding: 10px;
+}
+
+.card {
+  padding: 20px;
+  margin: 30px;
+  width: 20%;
+  border: 3px solid green;
+  border-radius: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about {
+  padding: 10px;
+}
+
+/* footer */
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
